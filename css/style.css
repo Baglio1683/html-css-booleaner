@@ -1,3 +1,4 @@
+/* Definizione stile tag header  */
 header{
 width: 100%;
 height: 200px;
@@ -6,51 +7,60 @@ background-color: rgb(56, 86, 151);
 margin-bottom: -15px
 }
 
-
-
+/* Definizione dell'id logo, presente nella testa della pagina  */
 #logo{
     width: 210px;
     height: 60px;
     padding-top: 114px;
 }
 
-
+/* definizione stile di h1 */
 h1{
 font-size:xxx-large; 
 padding-right: 40px; 
 margin-bottom: -16px;
 }
 
+/* Definizione stile della classe definizione  */
 .intestazione{
-
 color: grey;
 margin-bottom: -12px;
 font-size: 25px
 
 }
+
+/* Definizione stile della classe data */
 .data{
 
 color: grey;
 
-
 }
 
+/* Definizione stile degli span presenti nella classe definizione */
 .intestazione span{
 
   color:rgb(19, 112, 199);   
+
 }
 
+/* Definizione stile della prima immagine tramite id  */
 #Immagine1{
+
 height: 361px;
 width: 50%;
+
 }
 
+/* Definizione della stile seconda immagine tramite id  */
+
 #Immagine2{
+
 height: 361px;
 width: 45%;
 
 }
 
+/* Definizione stile testo sotto immagini principali */
 .under-picture{
 
     font-family: serif;
@@ -60,17 +70,21 @@ width: 45%;
 
 }
 
+/* Definizione stile classe yellow  */
 .yellow{
 
    background-color: yellow; 
+
 }
 
+/* Definizione stile liste non ordinate  */
 ul{
     padding-left: 15px;
     padding-top: 4%;
     padding-bottom: 4%;
 }
 
+/* Definizione stile th tabella  */
 th{
 
     background-color: rgb(0, 140, 255);
@@ -78,34 +92,44 @@ th{
     text-align: left;
     padding-right: 120px;
     
-
 }
+
+/* Definizione stile tabelle  */
 table {
+  
     border-collapse: collapse;
     width: 100%;
-  }
+  
+}
 
+/* Definizione stile alternato righe tabella  */
   tr:nth-child(odd) {
     background-color: rgb(41, 196, 243)
   }
 
+  /* Definizione stile classe celle tabella  */
   .first-second{
+
    padding-top: 20px;
    padding-right: 40px;
-   padding-bottom: 20px; ;
+   padding-bottom: 20px;
+
   }
 
+  /* Definizione stile td */
   td{
 
-   text-align: justify; 
-  }
+  text-align: justify; 
+ 
+}
 
+/* Definizione stile footer  */
 footer{
 
 padding-top: 15px;
 
 }
-
+/* Definizione stile titolo secondario  */
   .titolo-secondario{
 
 color: gray;
@@ -113,7 +137,9 @@ color: gray;
 
   }
 
+  /* Definizione stile primo div del footer  */
   .box-1{
+
   background-image: url(../img/monitor.jpg);
   color: white;
   text-align: left;
@@ -124,8 +150,10 @@ color: gray;
   font-size: larger;
   padding-left: 22px;
   padding-top: 10px;
+
   }
 
+  /* Definizione stile del secondo div del footer   */
   .box-2{
 background-image: url(../img/graph.jpg);
 color: white;
@@ -136,4 +164,5 @@ background-repeat: no-repeat;
 font-size: larger;
 padding-left: 22px;
 padding-top: 10px; 
+
 }
