@@ -1,5 +1,40 @@
 header{
-
+width: 100%;
+height: 200px;
 background-image: url("../img/pattern.png"); 
 background-color: rgb(56, 86, 151);
+margin-bottom: -15px
+}
+
+
+#logo{
+    width: 210px;
+    height: 60px;
+    padding-top: 114px;
+}
+
+
+h1{
+font-size:xxx-large; 
+padding-right: 40px; 
+margin-bottom: -16px;
+}
+
+.intestazione{
+
+color: grey;
+margin-bottom: -12px;
+font-size: 25px
+
+}
+.data{
+
+color: grey;
+
+
+}
+
+.intestazione span{
+
+  color:rgb(19, 112, 199);   
 }
