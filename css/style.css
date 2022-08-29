@@ -6,6 +6,10 @@ background-color: rgb(56, 86, 151);
 margin-bottom: -15px
 }
 
+main{
+padding-left: 10%; 
+padding-right: 10%;
+}
 
 #logo{
     width: 210px;
@@ -37,4 +41,35 @@ color: grey;
 .intestazione span{
 
   color:rgb(19, 112, 199);   
+}
+
+#Immagine1{
+height: 361px;
+width: 50%;
+}
+
+#Immagine2{
+height: 361px;
+width: 45%;
+
+}
+
+.under-picture{
+
+    font-family: serif;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+
+}
+
+.yellow{
+
+   background-color: yellow; 
+}
+
+ul{
+    padding-left: 15px;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
