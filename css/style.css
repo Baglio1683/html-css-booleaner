@@ -128,6 +128,9 @@ footer{
 
 padding-top: 15px;
 
+padding-left: 10%;
+padding-right: 10%;
+
 }
 /* Definizione stile titolo secondario  */
   .titolo-secondario{
@@ -164,5 +167,14 @@ background-repeat: no-repeat;
 font-size: larger;
 padding-left: 22px;
 padding-top: 10px; 
+
+}
+
+
+main{
+
+padding-left: 10%;
+padding-right: 10%;
+
 
 }
